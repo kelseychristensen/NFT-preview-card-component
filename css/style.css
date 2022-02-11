@@ -1,0 +1,190 @@
+body {
+    background: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.attribution {
+  display: none;
+}
+
+.parent {
+  margin: auto;
+  padding: 10%;
+}
+
+.card {
+    padding: 20px 20px 15px 20px;
+    margin: auto;
+
+    text-align: left;
+    width: 275px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 8px;
+    }
+
+img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.image{
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  margin-bottom: 3px;
+  transition: .3s ease;
+  background-color: rgb(0%, 100%, 97%, 50%);
+  border-radius: 8px;
+}
+
+.image:hover .overlay {
+  opacity: 1;
+}
+
+.icon {
+  color: white;
+  font-size: 100px;
+  position: absolute;
+  width: 50px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+h1 {
+   font-family: 'Outfit', sans-serif;
+   font-weight: bold;
+   font-size: 15pt;
+   color: hsl(0, 0%, 100%);
+   }
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+
+}
+
+h2 {
+   padding: 5px 0 0 0;
+   font-family: 'Outfit', sans-serif;
+   font-weight: 300;
+   font-size: 12pt;
+   color: hsl(215, 51%, 70%);
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: rgb(24%, 31%, 40%, 30%)
+}
+
+p {
+  padding: 0 20px 0 0;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 300;
+  font-size: 11pt;
+  color: hsl(215, 51%, 70%);
+  vertical-align: middle;
+}
+
+span {
+  color: hsl(0, 0%, 100%);
+}
+
+span:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.price{
+  width: 40%;
+  align: left;
+  text-align: left;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 12pt;
+  color: hsl(178, 100%, 50%);
+  padding-bottom: 12px;
+}
+
+table {
+  width: 100%;
+  vertical-align: middle;
+}
+
+td {
+  vertical-align: middle;
+  padding: auto;
+}
+
+
+.eth {
+  width: 12px;
+  padding-top: 10px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.clock {
+  padding-top: 5px;
+  width: 16px;
+  text-align: center;
+}
+
+.price {
+  width: 5%;
+  vertical-align: middle;
+  text-align: left;
+  padding: auto;
+}
+
+.price-2 {
+  width: 65%;
+  font-size: 10pt;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  vertical-align: middle;
+  color: hsl(178, 100%, 50%);
+  padding: auto;
+}
+
+.days {
+  width: 5%;
+  vertical-align: middle;
+  padding: auto;
+}
+
+.days-2 {
+  width: 25%;
+  text-align: right;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+  color: hsl(215, 51%, 70%);
+  vertical-align: center;
+  padding: auto;
+
+}
+
+.avatar {
+  width: 30px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 30px
+}
+
+
+.creator-text {
+  padding-left: 10px;
+}
