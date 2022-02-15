@@ -68,7 +68,7 @@ img {
 h1 {
    font-family: 'Outfit', sans-serif;
    font-weight: bold;
-   font-size: 1.25rem;
+   font-size: 1.23rem;
    color: hsl(0, 0%, 100%);
    }
 
@@ -151,7 +151,7 @@ td {
 
 .price-2 {
   width: 65%;
-  font-size: 1.2rem;
+  font-size: .8;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   vertical-align: middle;
@@ -160,7 +160,7 @@ td {
 }
 
 .days {
-  width: 5%;
+  width: 10%;
   vertical-align: middle;
   padding: auto;
 }
@@ -170,7 +170,7 @@ td {
   text-align: right;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 1.2rem;
+  font-size: .8rem;
   color: hsl(215, 51%, 70%);
   vertical-align: center;
   padding: auto;
