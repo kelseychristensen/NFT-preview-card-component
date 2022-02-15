@@ -68,7 +68,7 @@ img {
 h1 {
    font-family: 'Outfit', sans-serif;
    font-weight: bold;
-   font-size: 1rem;
+   font-size: 1.3rem;
    color: hsl(0, 0%, 100%);
    }
 
@@ -81,7 +81,7 @@ h2 {
    padding: 5px 0 0 0;
    font-family: 'Outfit', sans-serif;
    font-weight: 300;
-   font-size: 3;
+   font-size: 1rem;
    color: hsl(215, 51%, 70%);
 }
 
