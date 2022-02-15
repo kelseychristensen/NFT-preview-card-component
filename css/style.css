@@ -57,7 +57,7 @@ img {
   color: white;
   font-size: 6 rem;
   position: absolute;
-  width: 50px;
+  max-width: 50px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -131,7 +131,7 @@ td {
 
 
 .eth {
-  width: 12px;
+  max-width: 12px;
   padding-top: 10px;
   text-align: center;
   vertical-align: middle;
@@ -139,7 +139,7 @@ td {
 
 .clock {
   padding-top: 5px;
-  width: 16px;
+  max-width: 16px;
   text-align: center;
 }
 
@@ -179,7 +179,7 @@ td {
 }
 
 .avatar {
-  width: 30px;
+  max-width: 30px;
   border: 1px solid hsl(0, 0%, 100%);
   border-radius: 30px
 }
