@@ -55,7 +55,7 @@ img {
 
 .icon {
   color: white;
-  font-size: 6 rem;
+  font-size: 6rem;
   position: absolute;
   max-width: 50px;
   top: 50%;
@@ -68,7 +68,7 @@ img {
 h1 {
    font-family: 'Outfit', sans-serif;
    font-weight: bold;
-   font-size: 4 rem;
+   font-size: 4rem;
    color: hsl(0, 0%, 100%);
    }
 
@@ -81,7 +81,7 @@ h2 {
    padding: 5px 0 0 0;
    font-family: 'Outfit', sans-serif;
    font-weight: 300;
-   font-size: 3 rem;
+   font-size: 3;
    color: hsl(215, 51%, 70%);
 }
 
@@ -95,7 +95,7 @@ p {
   padding: 0 20px 0 0;
   font-family: 'Outfit', sans-serif;
   font-weight: 300;
-  font-size: 0.7 rem;
+  font-size: 0.7rem;
   color: hsl(215, 51%, 70%);
   vertical-align: middle;
 }
@@ -114,7 +114,7 @@ span:hover {
   text-align: left;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 0.7 rem;
+  font-size: 0.7rem;
   color: hsl(178, 100%, 50%);
   padding-bottom: 12px;
 }
@@ -152,7 +152,7 @@ td {
 
 .price-2 {
   width: 65%;
-  font-size: 0.625 rem;
+  font-size: 0.625rem;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   vertical-align: middle;
@@ -171,7 +171,7 @@ td {
   text-align: right;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 0.625 rem;
+  font-size: 0.625rem;
   color: hsl(215, 51%, 70%);
   vertical-align: center;
   padding: auto;
