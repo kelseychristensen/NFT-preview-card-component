@@ -68,13 +68,12 @@ img {
 h1 {
    font-family: 'Outfit', sans-serif;
    font-weight: bold;
-   font-size: 1.3rem;
+   font-size: 1.25rem;
    color: hsl(0, 0%, 100%);
    }
 
 h1:hover {
   color: hsl(178, 100%, 50%);
-
 }
 
 h2 {
@@ -114,7 +113,7 @@ span:hover {
   text-align: left;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: 0.9rem;
   color: hsl(178, 100%, 50%);
   padding-bottom: 12px;
 }
@@ -139,7 +138,7 @@ td {
 
 .clock {
   padding-top: 5px;
-  max-width: 16px;
+  max-width: 24px;
   text-align: center;
 }
 
@@ -152,7 +151,7 @@ td {
 
 .price-2 {
   width: 65%;
-  font-size: 0.625rem;
+  font-size: 1.2rem;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
   vertical-align: middle;
@@ -171,7 +170,7 @@ td {
   text-align: right;
   font-family: 'Outfit', sans-serif;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: hsl(215, 51%, 70%);
   vertical-align: center;
   padding: auto;
