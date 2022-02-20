@@ -11,85 +11,61 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
+
 <main>
-  <div class="parent">
 
-    <div class="card">
+<div class="card">
 
-      <div class="image">
-
-        <img src="images/image-equilibrium.jpg" alt="equilibrium_img">
-
-        <div class="overlay">
-          <img class="icon" src="images/icon-view.svg" alt="eye">
-        </div>
+      <div class="nft-image">
+        <a href="interactive"><img src="images/image-equilibrium.jpg" alt="equilibrium_img"></a>
+      <div class="overlay">
+        <img class="icon" src="images/icon-view.svg" alt="eye">
+      </div>
       </div>
 
-  <h1>
+  <h1><a href="interactive">
     Equilibrium #3429
-  </h1>
+  </h1></a>
 
-  <h2>
+  <p>
     Our Equilibrium collection promotes balance and calm.
-  </h2>
+  </p>
 
-  <table>
-    <tr>
-
-      <td class="price">
-        <img class="eth" src="images/icon-ethereum.svg" alt="ethereum"/>
-      </td>
-
-      <td class="price-2">
+<div class="flex-container">
+      <div class="ethereum-image-container">
+        <img class="ethereum-image" src="images/icon-ethereum.svg" alt="ethereum"/>
         0.041 ETH
-      </td>
+      </div>
 
-      <td class="days">
-        <img class="clock" src="images/icon-clock.svg" alt="clock"/>
-      </td>
-
-      <td class="days-2">
+      <div class="clock-image-container">
+        <img class="clock-image" src="images/icon-clock.svg" alt="clock"/>
         3 days left
-      </td>
+      </div>
+</div>
 
-    </tr>
-  </table>
+<br>
+<hr>
 
-  <hr>
-
-  <table>
-    <tr>
-      <td class="creator">
-          <img class="avatar" src="images/image-avatar.png" alt="Jules Wyvern" />
-      </td>
-      <td class="creator-text">
-          <p>Creation of <span>Jules Wyvern</span></p>
-      </td>
-    </tr>
-
-  </table>
-
+  <div class="flex-container-creator">
+      <div class="creator">
+          <img class="avatar" src="images/image-avatar.png" alt="Jules Wyvern">
+      </div>
+      <div class="creator-text">
+          <h4>Creation of <a href="interactive">Jules Wyvern</a></h4>
+      </div>
   </div>
+
+</div>
+
+  </main>
   <footer>
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
     Coded by <a href="kelseychristensen.com">Kelsey Christensen</a>.
-  </div>
     </footer>
-</body>
 
+
+</body>
 </html>
