@@ -12,6 +12,7 @@ footer {
 main {
   margin: auto;
   padding: 10%;
+  filter: drop-shadow(0 0 5rem rgb(0, 0, 0, 50%));
 }
 
 .card {
