@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/nft-card-preview-qgbFvBW7m)
-- Live Site URL: [Add live site URL here](https://nft-preview-card-virid.vercel.app/)
+- Solution URL: [here](https://www.frontendmentor.io/solutions/nft-card-preview-qgbFvBW7m)
+- Live Site URL: [here](https://nft-preview-card-virid.vercel.app/)
 
 ## My process
 
