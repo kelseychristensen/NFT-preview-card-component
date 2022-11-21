@@ -77,8 +77,6 @@ I want to do more Frontend Mentor challenges with Bootstrap, the grid system for
 - [Dribble](https://dribbble.com/kelseychristensen "Hi!")
 - [Website](http://kelseychristensen.com/ "Welcome")
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
 ## Acknowledgments
 
 Thank you to the community at FrontEnd mentor--especially other users who leave feedback!
