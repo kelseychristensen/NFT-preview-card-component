@@ -37,10 +37,8 @@ Users should be able to:
 
 ### Built with
 
-- CSS custom properties
 - Flexbox
 - CSS
-- Mobile-first workflow
 - HTML
 
 ### What I learned
